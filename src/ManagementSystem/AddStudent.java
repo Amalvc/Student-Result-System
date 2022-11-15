@@ -113,8 +113,7 @@ public class AddStudent extends javax.swing.JFrame {
         getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, -1, -1));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
-        jLabel7.setText("jLabel7");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -70, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, -30, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

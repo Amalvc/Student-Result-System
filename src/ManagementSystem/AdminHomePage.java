@@ -96,7 +96,6 @@ public class AdminHomePage extends javax.swing.JFrame {
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(461, 439, 98, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
         jLabel1.setMaximumSize(new java.awt.Dimension(700, 560));
         jLabel1.setMinimumSize(new java.awt.Dimension(700, 570));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -60, -1, -1));

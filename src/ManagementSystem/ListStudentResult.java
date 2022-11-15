@@ -73,7 +73,9 @@ public class ListStudentResult extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 400, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
-        jLabel2.setText("jLabel2");
+        jLabel2.setMaximumSize(new java.awt.Dimension(1232, 670));
+        jLabel2.setMinimumSize(new java.awt.Dimension(1232, 670));
+        jLabel2.setPreferredSize(new java.awt.Dimension(1232, 670));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, -120, -1, -1));
 
         pack();

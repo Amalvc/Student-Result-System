@@ -68,7 +68,9 @@ public class StudentHomePage extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 380, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
-        jLabel3.setText("jLabel3");
+        jLabel3.setMaximumSize(new java.awt.Dimension(1232, 670));
+        jLabel3.setMinimumSize(new java.awt.Dimension(1232, 670));
+        jLabel3.setPreferredSize(new java.awt.Dimension(1232, 670));
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-210, -80, -1, 670));
 
         pack();
@@ -86,7 +88,7 @@ public class StudentHomePage extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Entered RollNo doesn't exist");
             }
             else{
-                StudentResultPage frame = new StudentResultPage();
+                StudentResultPage frame = new StudentResultPage(RollNo);
                 frame.setVisible(true);
                 frame.setLocationRelativeTo(null);
             }

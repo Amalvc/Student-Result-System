@@ -179,7 +179,10 @@ public class StudentResultPage extends javax.swing.JFrame {
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
         jLabel14.setText("jLabel14");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, -30, -1, -1));
+        jLabel14.setMaximumSize(new java.awt.Dimension(1232, 670));
+        jLabel14.setMinimumSize(new java.awt.Dimension(1232, 670));
+        jLabel14.setPreferredSize(new java.awt.Dimension(1232, 670));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -40, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -187,6 +190,7 @@ public class StudentResultPage extends javax.swing.JFrame {
     private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
         // TODO add your handling code here:
           String RollNo =jTextField1.getText();
+          
 
             try{
             Connection con = ConnectionProvider.getCon();
